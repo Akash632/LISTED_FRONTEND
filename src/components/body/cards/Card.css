@@ -1,0 +1,55 @@
+.card{
+    border-radius: 20px;
+    min-width: 15vw;
+    padding: 20px;
+    /* box-sizing: border-box; */
+}
+.icon-container{
+    text-align: end;
+    min-width: 100%;
+}
+.text-card{
+    min-width: 15vw;
+}
+.card-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px;
+    box-sizing: border-box;
+    /* border: solid 1px black; */
+}
+.card-1{
+    background-color: #CCE8DB;
+}
+.card-2{
+    background-color: #FAF2E1;
+}
+.card-3{
+    background-color: #FFD0CF;
+}
+.card-4{
+    background-color: #B9C6E8;
+}
+
+/* extra small <576
+small >=576
+medium >=768
+large>=992
+extra large >=1200 */
+
+@media screen and (max-width: 576px){
+    .body-parent-container{
+        min-width: 100%;
+    }
+    .card{
+        min-width: 100%;
+    }
+    .card-container{
+        gap:15px
+    }
+    /* .icon-container{
+        min-width: 100%;
+        border: solid 1px black;
+    } */
+}
